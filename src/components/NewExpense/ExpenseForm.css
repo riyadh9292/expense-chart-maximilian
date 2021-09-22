@@ -1,0 +1,25 @@
+.new-expense__controls {
+  display: flex;
+  /*  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem; */
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  text-align: left;
+}
+/* .new-expense__control {
+  width: 50%;
+} */
+.new-expense__control label {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 20rem;
+  max-width: 100%;
+}
